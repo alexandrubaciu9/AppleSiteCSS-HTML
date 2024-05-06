@@ -446,3 +446,35 @@
   font-size: 1.9rem;
   color: #686565;
 }
+
+/* Section CTA */
+
+.section-cta {
+  padding: 9.6rem 0;
+
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #fc6a16;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.095);
+  border-radius: 11px;
+  
+  background-image: linear-gradient(to right, #91e9f8,#16d9fc );
+
+
+  /* hight */
+  height: 50rem;
+}
+
+
+.cta-text-box {
+
+}
+.cta-image-box {
+  background-image: url(/content/AppleCustomer.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
