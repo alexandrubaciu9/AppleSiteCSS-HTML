@@ -100,12 +100,24 @@
   row-gap: 6rem;
 }
 
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .section-how {
@@ -330,37 +342,34 @@
 
 .section-pricing {
   padding: 9.6rem 0;
-  
 }
 
 .pricing-plan {
-  background-color: #ebebec31;
+  background-color: #e0ecece3;
   border-radius: 11px;
   padding: 4.8rem;
   width: 75%;
   justify-items: end;
-  
 }
 
 .pricing-plan-ApplePlus {
   border: #20212259 1px solid;
-  background-color: #ebebecf5;
+  background-color: #caeaebe3;
   position: relative;
   overflow: hidden;
 }
 
 .pricing-plan-ApplePlus::after {
- content: "Best value";
- position: absolute;
- text-transform: uppercase;
- font-size: 1.4rem;
- font-weight: 850;
- top: 6%;
- right: -9%;
- background-color: #f7814b;
- padding: 0.8rem 5.2rem;
- transform: rotate(40deg);
- 
+  content: 'Best value';
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 850;
+  top: 6%;
+  right: -9%;
+  background-color: #f7814b;
+  padding: 0.8rem 5.2rem;
+  transform: rotate(40deg);
 }
 
 .pricing-plan--AppleCare {
@@ -406,4 +415,34 @@
 
 .product-list {
   margin-bottom: 4rem;
+}
+
+.plan-details {
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  font-weight: 545;
+  text-align: center;
+
+}
+
+.feature-icon {
+  margin-bottom: 2.2rem;
+  width: 4.1rem;
+  height: 4.1rem;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1.5rem;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.feature-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #202122;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.9rem;
+  color: #686565;
 }
