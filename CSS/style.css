@@ -381,7 +381,6 @@
   color: #f5f5f7;
   padding: 0.8rem 5.2rem;
   transform: rotate(40deg);
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.90);
 }
 
 .pricing-plan-ApplePlus:hover {
@@ -480,7 +479,7 @@
   /* background-color: #fc6a16; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.095);
   border-radius: 11px;
-  border: #72767a 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   /* background-image: linear-gradient(to right, #91e9f8, #16d9fc); */
   overflow: hidden;
   /* hight */
@@ -488,9 +487,33 @@
 }
 
 .cta-text-box {
+  padding: 3.4rem 4.5rem;
 }
+
+.cta .heading-secondary {
+  margin-bottom: 2rem !important;
+}
+
+.cta-text {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  margin-bottom: 1.6rem;
+  font-weight: 535;
+  color: #202122;
+  margin-bottom: 5.2rem;
+}
+
 .cta-image-box {
   background-image: url(/content/AppleCustomer.jpg);
   background-size: cover;
   background-position: center;
+}
+
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+  
 }

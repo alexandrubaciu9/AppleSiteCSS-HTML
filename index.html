@@ -3,13 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <link rel="stylesheet" href="CSS/general.css"/>
+
+    <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/style.css" />
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <title>Apple M presentation</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/content/favicon_io/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/content/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Apple Site HTML-CSS-Course-Project</title>
   </head>
   <body>
     <header class="header">
@@ -20,7 +36,7 @@
           <li><a class="main-nav-link" href="#">Section 2</a></li>
           <li><a class="main-nav-link" href="#">Section 3</a></li>
           <li><a class="main-nav-link" href="#">Section 4</a></li>
-          <li><a class="main-nav-link nav-cta" href="#" >Section 5</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
         </ul>
       </nav>
     </header>
@@ -90,11 +106,15 @@
       <div class="container-featured">
         <h2 class="heading-featured-in">As featured in</h2>
         <div class="logos">
-          <img src="/content/logos/business-insider.png" alt="business insider logo">
-          <img src="/content/logos/forbes.png" alt="forbes logo">
-          <img src="/content/logos/techcrunch.png" alt="techcrunch logo">
-          <img src="/content/logos/the-new-york-times.png" alt="the new york times logo">
-          <img src="/content/logos/usa-today.png" alt="usa-today logo">
+          <img
+            src="/content/logos/business-insider.png"
+            alt="business insider logo" />
+          <img src="/content/logos/forbes.png" alt="forbes logo" />
+          <img src="/content/logos/techcrunch.png" alt="techcrunch logo" />
+          <img
+            src="/content/logos/the-new-york-times.png"
+            alt="the new york times logo" />
+          <img src="/content/logos/usa-today.png" alt="usa-today logo" />
         </div>
       </div>
     </section>
@@ -106,62 +126,77 @@
       </div>
 
       <div class="container grid grid--2-cols">
-        <!-- STEP 01 -->
-        <div class="step-text-box">
-          <p class="step-number">01</p>
-          <h3 class="heading-tertiary">
-            Apple M1 Processor Overview and Compatibility
-          </h3>
-          <p class="step-description">
-           “The Apple M1 processor represents a significant step forward for Apple, but what does it mean for developers, designers, and other professionals using Apple hardware?
-The Apple M1 chip features four big Firestorm CPU cores for high-load scenarios, backed by four smaller Icestorm CPU cores designed for efficiency. If this sounds familiar, you've probably encountered Android phones with a similar ARM CPU layout. ARM calls this layout ARM big.LITTLE and it’s been around since 2014. The CPU uses the AArch64 or ARM64 extension set of the ARM architecture.
-          </p>
-        </div>
-        <div class="step-image-box glow-red">
-          <img
-            src="./content/step-img/step-img-1.jpg"
-            class="step-img"
-            alt="Apple silicon logo" />
-        </div>
-        <!-- STEP 02 -->
-        <div class="step-image-box glow-violet">
-          <img
-            src="./content/step-img/step-img-2.png"
-            class="step-img"
-            alt="Apple silicon logo" />
-        </div>
-        <div class="step-text-box">
-          <p class="step-number">02</p>
-          <h3 class="heading-tertiary">
-            The Apple M1: The Beginning of a New Era?
-          </h3>
-          <p class="step-description">
-            “There has never been a chip like M1, our breakthrough SoC for the Mac.
-            It builds on more than a decade of designing industry-leading chips for iPhone, iPad and Apple Watch, and ushers in a whole new era for the Mac,” said Johny Srouji, Apple’s senior vice president of Hardware Technologies. “When it comes to low-power silicon, M1 has the world’s fastest CPU core, the world’s fastest integrated graphics in a personal computer, and the amazing machine learning performance of the Apple Neural Engine. With its unique combination of remarkable performance, powerful features and incredible efficiency, M1 is by far the best chip we've ever created.”
-          </p>
-        </div>
-        <!-- STEP 03 -->
-        <div class="step-text-box">
-          <p class="step-number">03</p>
-          <h3 class="heading-tertiary">
-            M1 Ultra is another game-changer for Apple silicon
-          </h3>
-          <p class="step-description">
-            “...that once again will shock the PC industry. By connecting two M1
-            Max die with our UltraFusion packaging architecture, were able to
-            scale Apple silicon to unprecedented new heights,” said Johny
-            Srouji, Apple senior vice president of Hardware Technologies. “With
-            its powerful CPU, massive GPU, incredible Neural Engine, ProRes
-            hardware acceleration, and huge amount of unified memory, M1 Ultra
-            completes the M1 family as the worls most powerful and capable chip
-            for a personal computer.”
-          </p>
-        </div>
-        <div class="step-image-box glow-blue">
-          <img
-            src="./content/step-img/step-img-3.jpg"
-            class="step-img"
-            alt="SoC Die on packaging" />
+      <!-- STEP 01 -->
+      <div class="step-text-box">
+        <p class="step-number">01</p>
+        <h3 class="heading-tertiary">
+          Apple M1 Processor Overview and Compatibility
+        </h3>
+        <p class="step-description">
+          “The Apple M1 processor represents a significant step forward for
+          Apple, but what does it mean for developers, designers, and other
+          professionals using Apple hardware? The Apple M1 chip features four
+          big Firestorm CPU cores for high-load scenarios, backed by four
+          smaller Icestorm CPU cores designed for efficiency. If this sounds
+          familiar, you've probably encountered Android phones with a similar
+          ARM CPU layout. ARM calls this layout ARM big.LITTLE and it’s been
+          around since 2014. The CPU uses the AArch64 or ARM64 extension set of
+          the ARM architecture.
+        </p>
+      </div>
+      <div class="step-image-box glow-red">
+        <img
+          src="./content/step-img/step-img-1.jpg"
+          class="step-img"
+          alt="Apple silicon logo" />
+      </div>
+      <!-- STEP 02 -->
+      <div class="step-image-box glow-violet">
+        <img
+          src="./content/step-img/step-img-2.png"
+          class="step-img"
+          alt="Apple silicon logo" />
+      </div>
+      <div class="step-text-box">
+        <p class="step-number">02</p>
+        <h3 class="heading-tertiary">
+          The Apple M1: The Beginning of a New Era?
+        </h3>
+        <p class="step-description">
+          “There has never been a chip like M1, our breakthrough SoC for the
+          Mac. It builds on more than a decade of designing industry-leading
+          chips for iPhone, iPad and Apple Watch, and ushers in a whole new era
+          for the Mac,” said Johny Srouji, Apple’s senior vice president of
+          Hardware Technologies. “When it comes to low-power silicon, M1 has the
+          world’s fastest CPU core, the world’s fastest integrated graphics in a
+          personal computer, and the amazing machine learning performance of the
+          Apple Neural Engine. With its unique combination of remarkable
+          performance, powerful features and incredible efficiency, M1 is by far
+          the best chip we've ever created.”
+        </p>
+      </div>
+      <!-- STEP 03 -->
+      <div class="step-text-box">
+        <p class="step-number">03</p>
+        <h3 class="heading-tertiary">
+          M1 Ultra is another game-changer for Apple silicon
+        </h3>
+        <p class="step-description">
+          “...that once again will shock the PC industry. By connecting two M1
+          Max die with our UltraFusion packaging architecture, were able to
+          scale Apple silicon to unprecedented new heights,” said Johny Srouji,
+          Apple senior vice president of Hardware Technologies. “With its
+          powerful CPU, massive GPU, incredible Neural Engine, ProRes hardware
+          acceleration, and huge amount of unified memory, M1 Ultra completes
+          the M1 family as the worls most powerful and capable chip for a
+          personal computer.”
+        </p>
+      </div>
+      <div class="step-image-box glow-blue">
+        <img
+          src="./content/step-img/step-img-3.jpg"
+          class="step-img"
+          alt="SoC Die on packaging" />
       </div>
     </section>
 
@@ -170,62 +205,144 @@ The Apple M1 chip features four big Firestorm CPU cores for high-load scenarios,
         <span class="subheading">Apple's mainly sold products</span>
         <h2 class="heading-secondary">Products based on arm architecture</h2>
       </div>
-      
+
       <div class="container grid grid--3-cols">
         <div class="product">
-          <img src="/content/products/MacMiniM.png" class="product-img" alt="mac mini picture">
+          <img
+            src="/content/products/MacMiniM.png"
+            class="product-img"
+            alt="mac mini picture" />
           <div class="product-content">
-            <p class="product-title">
-              Mac Mini M3 series
-            </p>
+            <p class="product-title">Mac Mini M3 series</p>
             <div class="product-tags">
               <span class="product-category">Computers</span>
             </div>
             <ul class="product-attributes">
-              <li class="product-attribute"><ion-icon class="product-icon" name="hardware-chip-outline"></ion-icon><span> M3: 8 (4x high-performance + 4x high-efficiency)</span></li>
-              <li class="product-attribute"><ion-icon class="product-icon" name="square-outline"></ion-icon><span> M3: 25 billion transistors</span> </li>
-              <li class="product-attribute"><ion-icon class="product-icon" name="flash-outline"></ion-icon><span> LPDDR5 integrated unified memory</span></li>
-              <li class="product-attribute"><ion-icon class="product-icon" name="hardware-chip-outline"></ion-icon><span> Apple-designed integrated graphics M3: 8-10 core GPU</span></li>
-              <li class="product-attribute"><ion-icon class="product-icon" name="file-tray-full-outline"></ion-icon><span> 256GB base storage - type SSD NVME 3.0 up to 3500mb/s</span></li>
+              <li class="product-attribute">
+                <ion-icon
+                  class="product-icon"
+                  name="hardware-chip-outline"></ion-icon>
+                <span>M3: 8 (4x high-performance + 4x high-efficiency)</span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon class="product-icon" name="square-outline"></ion-icon>
+                <span>M3: 25 billion transistors</span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon class="product-icon" name="flash-outline"></ion-icon>
+                <span>LPDDR5 integrated unified memory</span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon
+                  class="product-icon"
+                  name="hardware-chip-outline"></ion-icon>
+                <span>
+                  Apple-designed integrated graphics M3: 8-10 core GPU
+                </span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon
+                  class="product-icon"
+                  name="file-tray-full-outline"></ion-icon>
+                <span>
+                  256GB base storage - type SSD NVME 3.0 up to 3500mb/s
+                </span>
+              </li>
             </ul>
           </div>
-          
         </div>
-         <div class="product">
-           <img src="/content/products/mac-studio-2023-1.jpg" class="product-img" alt="mac studio m3 max photo">
-           <div class="product-content">
-             <p class="product-title">
-               Mac Studio M3 Max
-              </p>
-          <div class="product-tags">
-            <span class="product-category">Computers</span>
+        <div class="product">
+          <img
+            src="/content/products/mac-studio-2023-1.jpg"
+            class="product-img"
+            alt="mac studio m3 max photo" />
+          <div class="product-content">
+            <p class="product-title">Mac Studio M3 Max</p>
+            <div class="product-tags">
+              <span class="product-category">Computers</span>
+            </div>
+            <ul class="product-attributes">
+              <li class="product-attribute">
+                <ion-icon
+                  class="product-icon"
+                  name="hardware-chip-outline"></ion-icon>
+                <span>14-core CPU/ or a 16-core CPU/</span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon class="product-icon" name="square-outline"></ion-icon>
+                <span>M3 Max: 92 billion transistors</span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon class="product-icon" name="flash-outline"></ion-icon>
+                <span>LPDDR5 integrated unified memory up to 128GB</span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon
+                  class="product-icon"
+                  name="hardware-chip-outline"></ion-icon>
+                <span>Apple integrated graphics M3 Max: up to 38-core GPU</span>
+              </li>
+              <li class="product-attribute">
+                <ion-icon
+                  class="product-icon"
+                  name="file-tray-full-outline"></ion-icon>
+                <span>
+                  512GB base storage - type SSD NVME 3.0 up to 5500mb/s
+                </span>
+              </li>
+            </ul>
           </div>
-          <ul class="product-attributes">
-            <li class="product-attribute"><ion-icon class="product-icon" name="hardware-chip-outline"></ion-icon><span> 14-core CPU/ or a 16-core CPU/</span></li>
-            <li class="product-attribute"><ion-icon class="product-icon" name="square-outline"></ion-icon><span> M3 Max: 92 billion transistors</span> </li>
-            <li class="product-attribute"><ion-icon class="product-icon" name="flash-outline"></ion-icon><span> LPDDR5 integrated unified memory up to 128GB</span></li>
-            <li class="product-attribute"><ion-icon class="product-icon" name="hardware-chip-outline"></ion-icon><span> Apple integrated graphics M3 Max: up to 38-core GPU</span></li>
-            <li class="product-attribute"><ion-icon class="product-icon" name="file-tray-full-outline"></ion-icon><span> 512GB base storage - type SSD NVME 3.0 up to 5500mb/s</span></li>
-          </ul>
         </div>
-        </div>
-        
+
         <div class="product-list-card">
-          <h3 class="heading-tertiary">Apple products categories: </h3>
+          <h3 class="heading-tertiary">Apple products categories:</h3>
           <ul class="product-list">
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> Laptops</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> Mini PC's</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> Studio PC's</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> Workstation PC's</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> Airpods Pro</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> iPhone</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> Apple Watch</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> AirTag</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> Apple Vision Pro</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> iPad</span></li>
-            <li class="list-product-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span> iMac</span></li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Laptops</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Mini PC's</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Studio PC's</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Workstation PC's</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Airpods Pro</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>iPhone</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Apple Watch</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>AirTag</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Apple Vision Pro</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>iPad</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>iMac</span>
+            </li>
           </ul>
-      </div>
+        </div>
       </div>
 
       <div class="container-all-products margin-bottom-md">
@@ -235,86 +352,138 @@ The Apple M1 chip features four big Firestorm CPU cores for high-load scenarios,
 
     <!-- Section testimonials -->
     <section class="section-testimonials">
-      
       <!-- subheading testimonials column -->
-        <div class="testimonials-container">
+      <div class="testimonials-container">
         <span class="subheading">Testimonials</span>
-        <h2 class="heading-secondary">Once you try it, you can never go back!</h2>
+        <h2 class="heading-secondary">
+          Once you try it, you can never go back!
+        </h2>
 
-      <div class="testimonials">
-      <figure class="testimonial">
-        <img src="/content/customers/2.jpg" class="testimonial-img" alt="photo of customer testimonial">
-        <blockquote class="testimonial-text">With iPhone and iPad, we are empowering our store associates to provide exceptional customer service, increase customer loyalty, and deliver a full omnichannel experience.</blockquote>
-        <p class="testimonial-name"> &mdash; Jeremy Soller</p>
-      </figure>
+        <div class="testimonials">
+          <figure class="testimonial">
+            <img
+              src="/content/customers/2.jpg"
+              class="testimonial-img"
+              alt="photo of customer testimonial" />
+            <blockquote class="testimonial-text">
+              With iPhone and iPad, we are empowering our store associates to
+              provide exceptional customer service, increase customer loyalty,
+              and deliver a full omnichannel experience.
+            </blockquote>
+            <p class="testimonial-name">&mdash; Jeremy Soller</p>
+          </figure>
 
-       <figure class="testimonial">
-        <img src="/content/customers/1.jpg" class="testimonial-img" alt="photo of customer testimonial">
-        <blockquote class="testimonial-text">Apple's products seamlessly blend innovation and elegance. From my MacBook to my iPhone, every device enhances my life effortlessly. Truly unmatched!</blockquote>
-        <p class="testimonial-name"> &mdash; Melinda Smith</p>
-      </figure>
+          <figure class="testimonial">
+            <img
+              src="/content/customers/1.jpg"
+              class="testimonial-img"
+              alt="photo of customer testimonial" />
+            <blockquote class="testimonial-text">
+              Apple's products seamlessly blend innovation and elegance. From my
+              MacBook to my iPhone, every device enhances my life effortlessly.
+              Truly unmatched!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Melinda Smith</p>
+          </figure>
 
-       <figure class="testimonial">
-        <img src="/content/customers/3.jpg" class="testimonial-img" alt="photo of customer testimonial">
-        <blockquote class="testimonial-text">Apple's customer service sets a gold standard. Quick responses, helpful staff—I've never felt more supported. They prioritize satisfaction like no other!</blockquote>
-        <p class="testimonial-name"> &mdash; Andrew Hemilton</p>
-      </figure>
+          <figure class="testimonial">
+            <img
+              src="/content/customers/3.jpg"
+              class="testimonial-img"
+              alt="photo of customer testimonial" />
+            <blockquote class="testimonial-text">
+              Apple's customer service sets a gold standard. Quick responses,
+              helpful staff—I've never felt more supported. They prioritize
+              satisfaction like no other!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Andrew Hemilton</p>
+          </figure>
 
-       <figure class="testimonial">
-        <img src="/content/customers/4.jpg" class="testimonial-img" alt="photo of customer testimonial">
-        <blockquote class="testimonial-text">Switching to Apple was a game-changer. The ecosystem integration makes everything simpler. Plus, the quality? Unbeatable.</blockquote>
-        <p class="testimonial-name"> &mdash; George Lucas</p>
-      </figure>
-      </div>
+          <figure class="testimonial">
+            <img
+              src="/content/customers/4.jpg"
+              class="testimonial-img"
+              alt="photo of customer testimonial" />
+            <blockquote class="testimonial-text">
+              Switching to Apple was a game-changer. The ecosystem integration
+              makes everything simpler. Plus, the quality? Unbeatable.
+            </blockquote>
+            <p class="testimonial-name">&mdash; George Lucas</p>
+          </figure>
+        </div>
       </div>
       <div class="gallery">
         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_1.jpg" alt="Macbook Pro 16 M3 series SoC">
+          <img
+            src="/content/gallery/screenshot_1.jpg"
+            alt="Macbook Pro 16 M3 series SoC" />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_2.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_2.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_3.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_3.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_4.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_4.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_5.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_5.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_6.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_6.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_7.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_7.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_8.jpg" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_8.jpg"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_9.jpg" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_9.jpg"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_5.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_5.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_11.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_11.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
 
-         <figure class="gallery-item">
-          <img src="/content/gallery/screenshot_12.png" alt="Macbook Pro 16 M3 series SoC">
+        <figure class="gallery-item">
+          <img
+            src="/content/gallery/screenshot_12.png"
+            alt="Macbook Pro 16 M3 series SoC" />
         </figure>
       </div>
     </section>
@@ -322,90 +491,178 @@ The Apple M1 chip features four big Firestorm CPU cores for high-load scenarios,
     <section class="section-pricing">
       <div class="container">
         <span class="subheading">Pricing</span>
-        <h2 class="heading-secondary">Working well without breaking the bank</h2>
+        <h2 class="heading-secondary">
+          Working well without breaking the bank
+        </h2>
       </div>
 
-      <div class="container grid grid--2-cols margin-bottom-fix-section-pricing">
+      <div
+        class="container grid grid--2-cols margin-bottom-fix-section-pricing">
         <div class="pricing-plan pricing-plan--AppleCare">
           <header class="plan-header">
             <p class="plan-name">Apple Care</p>
-            <p class="plan-price"><span>$</span>399</p>
+            <p class="plan-price">
+              <span>$</span>
+              399
+            </p>
             <p class="plan-text">Per month. That's just $13 for each day</p>
           </header>
-           <h3 class="heading-tertiary">Apple products categories: </h3>
+          <h3 class="heading-tertiary">Apple products categories:</h3>
           <ul class="product-list">
-            <li class="list-product-item"><ion-icon name="shield-outline"></ion-icon><span> One Apple product per month</span></li>
-            <li class="list-product-item"><ion-icon name="shield-outline"></ion-icon><span> Basic Apple Care support</span></li>
-            <li class="list-product-item"><ion-icon name="shield-outline"></ion-icon><span> One year warranty period</span></li>
+            <li class="list-product-item">
+              <ion-icon name="shield-outline"></ion-icon>
+              <span>One Apple product per month</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon name="shield-outline"></ion-icon>
+              <span>Basic Apple Care support</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon name="shield-outline"></ion-icon>
+              <span>One year warranty period</span>
+            </li>
           </ul>
-           <div class="plan-sign-up">
-          <a href="#" class="btn btn--full margin-right-sm">
-            Apple Care
-          </a>
-        </div>
+          <div class="plan-sign-up">
+            <a href="#" class="btn btn--full margin-right-sm">Apple Care</a>
+          </div>
         </div>
         <div class="pricing-plan pricing-plan-ApplePlus">
           <header class="plan-header">
-          <p class="plan-name">Apple Care Plus</p>
-          <p class="plan-price"><span>$</span>649</p>
-          <p class="plan-text">Per month. That's just $21 for each day</p>
+            <p class="plan-name">Apple Care Plus</p>
+            <p class="plan-price">
+              <span>$</span>
+              649
+            </p>
+            <p class="plan-text">Per month. That's just $21 for each day</p>
           </header>
-           <h3 class="heading-tertiary">Apple+ products categories: </h3>
+          <h3 class="heading-tertiary">Apple+ products categories:</h3>
           <ul class="product-list">
-            <li class="list-product-item"><ion-icon class="shield-icon" name="shield-half-outline"></ion-icon><span> Two Apple products per month</span></li>
-            <li class="list-product-item"><ion-icon class="shield-icon" name="shield-half-outline"></ion-icon><span> Free <strong>Apple Care+</strong>  support</span></li>
-            <li class="list-product-item"><ion-icon class="shield-icon" name="shield-half-outline"></ion-icon><span> Extended warranty period</span></li>
+            <li class="list-product-item">
+              <ion-icon
+                class="shield-icon"
+                name="shield-half-outline"></ion-icon>
+              <span>Two Apple products per month</span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon
+                class="shield-icon"
+                name="shield-half-outline"></ion-icon>
+              <span>
+                Free
+                <strong>Apple Care+</strong>
+                support
+              </span>
+            </li>
+            <li class="list-product-item">
+              <ion-icon
+                class="shield-icon"
+                name="shield-half-outline"></ion-icon>
+              <span>Extended warranty period</span>
+            </li>
           </ul>
           <div class="plan-sign-up">
-          <a href="#" class="btn btn--full margin-right-sm">
-            Apple Care+
-          </a>
+            <a href="#" class="btn btn--full margin-right-sm">Apple Care+</a>
           </div>
         </div>
       </div>
       <!-- text-between-sections-container -->
       <div class="container grid">
         <aside class="plan-details">
-          Prices include all applicable taxes. Users can cancel at any time. Both plans also include the following:
+          Prices include all applicable taxes. Users can cancel at any time.
+          Both plans also include the following:
         </aside>
       </div>
 
-<!-- feature listing section -->
+      <!-- feature listing section -->
       <div class="container grid grid--4-cols">
         <div class="feature">
-        <ion-icon name="heart-outline" class="feature-icon"></ion-icon>
-        <div class="feature-title">Apple's reliability is unparalleled.</div>
-        <div class="feature-text">My devices never fail to impress with their performance and durability. Trustworthy tech at its finest!</div>
- </div>
-        <div class="feature">
-        <ion-icon name="cash-outline" class="feature-icon"></ion-icon>
-        <div class="feature-title">Every Apple purchase feels like an investment in quality.</div>
-        <div class="feature-text"> From the sleek design to the intuitive interface, I'm constantly reminded why I choose Apple.</div>
- </div>
-        <div class="feature">
-        <ion-icon name="shield-checkmark-outline" class="feature-icon"></ion-icon>
-        <div class="feature-title">Apple's commitment to privacy is commendable.</div>
-        <div class="feature-text">I feel secure knowing my data is protected. It's reassuring to have a company that prioritizes my privacy.</div>
- </div>
-        <div class="feature">
-        <ion-icon name="cube-outline" class="feature-icon"></ion-icon>
-        <div class="feature-title">Apple's ecosystem simplifies my life.</div>
-        <div class="feature-text">Seamless syncing between devices streamlines my workflow. It's technology that works together effortlessly.</div>
- </div>
-      </div>
-    </section>
-
-    <!-- Section CTA !important=> de inlocuit border-radius cu shadows-->
-    <section class="section-cta">
-      <div class="container">
-        <div class="cta">
-          <div class="cta-text-box">
-            
+          <ion-icon name="heart-outline" class="feature-icon"></ion-icon>
+          <div class="feature-title">Apple's reliability is unparalleled.</div>
+          <div class="feature-text">
+            My devices never fail to impress with their performance and
+            durability. Trustworthy tech at its finest!
           </div>
-          <div class="cta-image-box" role="img" aria-label="women working on a Macbook"></div>
+        </div>
+        <div class="feature">
+          <ion-icon name="cash-outline" class="feature-icon"></ion-icon>
+          <div class="feature-title">
+            Every Apple purchase feels like an investment in quality.
+          </div>
+          <div class="feature-text">
+            From the sleek design to the intuitive interface, I'm constantly
+            reminded why I choose Apple.
+          </div>
+        </div>
+        <div class="feature">
+          <ion-icon
+            name="shield-checkmark-outline"
+            class="feature-icon"></ion-icon>
+          <div class="feature-title">
+            Apple's commitment to privacy is commendable.
+          </div>
+          <div class="feature-text">
+            I feel secure knowing my data is protected. It's reassuring to have
+            a company that prioritizes my privacy.
+          </div>
+        </div>
+        <div class="feature">
+          <ion-icon name="cube-outline" class="feature-icon"></ion-icon>
+          <div class="feature-title">Apple's ecosystem simplifies my life.</div>
+          <div class="feature-text">
+            Seamless syncing between devices streamlines my workflow. It's
+            technology that works together effortlessly.
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Section Call to Action CTA -->
+
+    <section class="section-cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">A New Era for Computing</h2>
+            <p class="cta-text">
+              Experience unrivaled performance and style with Apple's
+              cutting-edge devices today. Join millions worldwide in
+              experiencing the pinnacle of technological advancement.
+            </p>
+            <!-- formular -->
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">Full name:</label>
+                <input id="full-name" type="text" placeholder="John Smith" required/>
+              </div>
+
+              <div>
+                <label for="email">Email:</label>
+              <input id="email" type="email" placeholder="email@email.com" required/>
+              </div>
+
+              <div>
+              <label for="select-where">Where did you hear from us?</label>
+              <select id="select-where" required>
+                <option value="">Please choose one option: </option>
+                <option value="friends">Friends and family</option>
+                <option value="youtube">YouTube video</option>
+                <option value="podcast">Podcast</option>
+                <option value="ad">Facebook Ad</option>
+                <option value="others">Others</option>
+              </select>
+              </div>
+
+              <button class="btn-form">Sign up now</button>
+              <!-- <input type="checkbox"/>
+              <input type="number"/> -->
+            </form>
+          </div>
+          <div
+            class="cta-image-box"
+            role="img"
+            aria-label="women working on a Macbook"></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
