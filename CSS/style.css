@@ -325,7 +325,9 @@
 
 .gallery-item {
   overflow: hidden;
+  border-radius: 5px;
 }
+
 .gallery-item img {
   display: block;
   width: 100%;
@@ -346,7 +348,7 @@
 }
 
 .margin-bottom-fix-section-pricing {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .pricing-plan {
@@ -357,7 +359,7 @@
   width: 75%;
   justify-items: end;
   transition: 0.5s;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.37) 0px 1px 4px;
 }
 
 .pricing-plan-ApplePlus {
@@ -379,7 +381,7 @@
   color: #f5f5f7;
   padding: 0.8rem 5.2rem;
   transform: rotate(40deg);
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.90);
 }
 
 .pricing-plan-ApplePlus:hover {
