@@ -44,8 +44,8 @@
 }
 
 .header-logo {
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   margin-top: 2rem;
   margin-left: 6rem;
 }
@@ -118,6 +118,10 @@
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .section-how {
@@ -535,4 +539,13 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
+/* Footer */
 
+.footer {
+  padding: 9.5rem;
+}
+
+.footer-logo {
+  width: 3rem;
+  height: 3rem;
+}
