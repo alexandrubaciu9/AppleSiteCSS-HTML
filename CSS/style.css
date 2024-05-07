@@ -332,6 +332,7 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: all 0.5s;
+  border: #333333 1px solid;
 }
 
 .gallery-item img:hover {
@@ -344,17 +345,24 @@
   padding: 9.6rem 0;
 }
 
+.margin-bottom-fix-section-pricing {
+  margin-bottom: 3rem !important;
+}
+
 .pricing-plan {
-  background-color: #e0ecece3;
+  background-color: #ffffff;
   border-radius: 11px;
+  /* border: #959596 1px solid; */
   padding: 4.8rem;
   width: 75%;
   justify-items: end;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .pricing-plan-ApplePlus {
-  border: #20212259 1px solid;
-  background-color: #caeaebe3;
+  /* border: #000000 3px solid; */
+  background-color: #ffffff;
   position: relative;
   overflow: hidden;
 }
@@ -367,9 +375,21 @@
   font-weight: 850;
   top: 6%;
   right: -9%;
-  background-color: #f7814b;
+  background-color: #000000;
+  color: #f5f5f7;
   padding: 0.8rem 5.2rem;
   transform: rotate(40deg);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan-ApplePlus:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 6rem 6.8rem rgba(0, 0, 0, 0.095);
+}
+
+.pricing-plan--AppleCare:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 6rem 6.8rem rgba(0, 0, 0, 0.095);
 }
 
 .pricing-plan--AppleCare {
@@ -418,11 +438,10 @@
 }
 
 .plan-details {
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 2.5rem;
   font-weight: 545;
   text-align: center;
-
 }
 
 .feature-icon {
@@ -451,30 +470,25 @@
 
 .section-cta {
   padding: 9.6rem 0;
-
 }
 
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: #fc6a16;
+  /* background-color: #fc6a16; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.095);
   border-radius: 11px;
-  
-  background-image: linear-gradient(to right, #91e9f8,#16d9fc );
-
+  border: #72767a 1px solid;
+  /* background-image: linear-gradient(to right, #91e9f8, #16d9fc); */
 
   /* hight */
   height: 50rem;
 }
 
-
 .cta-text-box {
-
 }
 .cta-image-box {
   background-image: url(/content/AppleCustomer.jpg);
   background-size: cover;
   background-position: center;
-
 }
