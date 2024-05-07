@@ -482,7 +482,7 @@
   border-radius: 11px;
   border: #72767a 1px solid;
   /* background-image: linear-gradient(to right, #91e9f8, #16d9fc); */
-
+  overflow: hidden;
   /* hight */
   height: 50rem;
 }
