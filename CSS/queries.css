@@ -1,0 +1,192 @@
+/* rem and em do not depend on HTML font-size on media queries */
+/* instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonial-text {
+    font-size: 1.7rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .reviews-from-customers-img {
+    margin-top: 2rem;
+  }
+
+  .text-under-reviews-from-customers {
+    font-size: 1.4rem;
+    font-weight: 525;
+    line-height: 1;
+    color: #333333;
+    letter-spacing: 0.1rem;
+    margin-top: 2.2rem;
+  }
+
+  .text-under-reviews-from-customers-bold {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.05;
+    color: #202122;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+  }
+
+.logos img {
+  height: 3rem;
+}
+
+  .heading-secondary {
+    font-size: 3.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .step-number {
+    font-size: 3.8rem;
+  }
+
+  .step-description {
+    font-size: 1.9rem;
+  }
+
+  .pricing-title-margin-bottom{
+    margin-bottom: 6rem;
+  }
+
+  .grid-spacing-fix {
+    column-gap: 7rem;
+    row-gap: 6rem;
+  }
+  .main-nav-list {
+  gap: 4.8rem;
+}
+
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .main-nav-list {
+  gap: 3.8rem;
+}
+
+  .brandlogos img {
+    margin-right: 2rem;
+    padding: 0.3rem;
+    row-gap: 6rem;
+}
+
+  .feature-title {
+    font-size: 2rem;
+    font-weight: 525;
+    color: #202122;
+    margin-bottom: 2.6rem;
+}
+
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) { 
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text-box, .hero-image-box {
+    text-align: center;
+  }
+
+  .text-under-reviews-from-customers {
+    margin-bottom: 4rem;
+  }
+  
+  .hero-img {
+    width: 70%;
+    
+  }
+
+  .grid-spacing-fix {
+    column-gap: 5rem;
+    row-gap: 4rem;
+  }
+
+  .product-content {
+    padding: 3.9rem 3.9rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-plan {
+    padding: 5.8rem;
+    width: 85%;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .footer {
+    padding: 5rem;
+  }
+
+  .feature-text {
+  font-size: 1.8rem;
+  }
+
+  .feature-icon {
+    margin-bottom: 2.2rem;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+    height: 66rem;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .button-56 {
+    margin-top: 4rem;
+  }
+
+  .feature-title {
+    font-size: 2rem;
+    font-weight: 525;
+    color: #202122;
+    margin-bottom: 2.6rem;
+}
+}
+

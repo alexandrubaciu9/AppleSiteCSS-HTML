@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- always include this line of code -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/queries.css" />
 
     <script
       type="module"
@@ -89,9 +91,9 @@
               <img src="/content/customers/7.jpg" alt="customer photo" />
               <img src="/content/customers/8.jpg" alt="customer photo" />
             </div>
-            <p>
+            <p class="text-under-reviews-from-customers">
               • Apple strives to bring the best personal computing experience to
-              <span>students, educators, creative professionals.</span>
+              <span class="text-under-reviews-from-customers-bold" >students, educators, creative professionals.</span>
             </p>
           </div>
         </div>
@@ -107,7 +109,7 @@
     <section class="section-featured">
       <div class="container-featured">
         <h2 class="heading-featured-in">As featured in</h2>
-        <div class="logos">
+        <div class="logos brandlogos">
           <img
             src="/content/logos/business-insider.png"
             alt="business insider logo" />
@@ -127,7 +129,7 @@
         <h2 class="heading-secondary">Manufacturing of the chips at TSMC</h2>
       </div>
 
-      <div class="container grid grid--2-cols">
+      <div class="container grid--2-cols grid-spacing-fix">
       <!-- STEP 01 -->
       <div class="step-text-box">
         <p class="step-number">01</p>
@@ -141,7 +143,7 @@
           big Firestorm CPU cores for high-load scenarios, backed by four
           smaller Icestorm CPU cores designed for efficiency. If this sounds
           familiar, you've probably encountered Android phones with a similar
-          ARM CPU layout. ARM calls this layout ARM big.LITTLE and it’s been
+          ARM CPU layout. ARM calls this layout ARM big.LITTLE and it's been
           around since 2014. The CPU uses the AArch64 or ARM64 extension set of
           the ARM architecture.
         </p>
@@ -493,7 +495,7 @@
     <section class="section-pricing">
       <div class="container">
         <span class="subheading">Pricing</span>
-        <h2 class="heading-secondary">
+        <h2 class="heading-secondary pricing-title-margin-bottom">
           Working well without breaking the bank
         </h2>
       </div>
