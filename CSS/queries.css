@@ -48,9 +48,9 @@
     font-weight: 800;
   }
 
-.logos img {
-  height: 3rem;
-}
+  .logos img {
+    height: 3rem;
+  }
 
   .heading-secondary {
     font-size: 3.4rem;
@@ -69,7 +69,7 @@
     font-size: 1.9rem;
   }
 
-  .pricing-title-margin-bottom{
+  .pricing-title-margin-bottom {
     margin-bottom: 6rem;
   }
 
@@ -78,9 +78,8 @@
     row-gap: 6rem;
   }
   .main-nav-list {
-  gap: 4.8rem;
-}
-
+    gap: 4.8rem;
+  }
 }
 
 /**************************/
@@ -93,44 +92,43 @@
   }
 
   .main-nav-list {
-  gap: 3.8rem;
-}
+    gap: 3.8rem;
+  }
 
   .brandlogos img {
     margin-right: 2rem;
     padding: 0.3rem;
     row-gap: 6rem;
-}
+  }
 
   .feature-title {
     font-size: 2rem;
     font-weight: 525;
     color: #202122;
     margin-bottom: 2.6rem;
-}
-
+  }
 }
 
 /**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
 
-@media (max-width: 59em) { 
+@media (max-width: 59em) {
   .hero {
     grid-template-columns: 1fr;
   }
 
-  .hero-text-box, .hero-image-box {
+  .hero-text-box,
+  .hero-image-box {
     text-align: center;
   }
 
   .text-under-reviews-from-customers {
     margin-bottom: 4rem;
   }
-  
+
   .hero-img {
     width: 70%;
-    
   }
 
   .grid-spacing-fix {
@@ -160,14 +158,14 @@
   }
 
   .feature-text {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
   }
 
   .feature-icon {
     margin-bottom: 2.2rem;
     width: 2.3rem;
     height: 2.3rem;
-}
+  }
 
   .cta {
     grid-template-columns: 3fr 2fr;
@@ -187,6 +185,63 @@
     font-weight: 525;
     color: #202122;
     margin-bottom: 2.6rem;
-}
-}
+  }
 
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.945);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    /* Hide navigation
+    Allows NO transitions at all
+    display: none; */
+
+    /* Hide it visually */
+    opacity: 0;
+
+    /* Make it unnaccesible to mouse and keyboard */
+    visibility: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #2c2c2c;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+}

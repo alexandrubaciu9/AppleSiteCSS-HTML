@@ -41,6 +41,7 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #f5f5f7;
+  position: relative;
 }
 
 .header-logo {
@@ -48,6 +49,23 @@
   height: 4rem;
   margin-top: 2rem;
   margin-left: 6rem;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #000000;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 .heading-featured-in {
