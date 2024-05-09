@@ -8,16 +8,28 @@ console.log(h1);
 
 
 
-h1.addEventListener("click", function () {
-  h1.textContent = myName;
-  h1.style.backgroundColor = 'lightgray';
-  h1.style.padding = "4rem";
-})
+// h1.addEventListener("click", function () {
+//   h1.textContent = myName;
+//   h1.style.backgroundColor = 'lightgray';
+//   h1.style.padding = "4rem";
+// })
 
+//set current year
 const yearEL = document.querySelector('.year');
 constCurrentYear = new Date ().getFullYear();
 console.log(constCurrentYear);
 yearEL.textContent = constCurrentYear;
+
+// make mobile nav work
+
+const btnNavEL = document.querySelector('.btn-mobile-nav');
+const headerEL = document.querySelector(".header");
+
+btnNavEL.addEventListener('click', function() {
+  headerEL.classList.toggle('nav-open')
+});
+
+("nav-open");
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
