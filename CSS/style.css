@@ -203,6 +203,8 @@
 
 .step-description {
   font-size: 2rem;
+  line-height: 1.4;
+  margin-top: 2rem;
 }
 
 .section-products {
@@ -641,3 +643,4 @@
 .footer-link:active {
   color: #2e2e2e;
 }
+

@@ -125,7 +125,7 @@ html {
 
 .hero-img {
   width: 100%;
-  box-shadow: 0.5rem 0.5rem 1.5rem 1rem rgba(153, 151, 151, 0.67);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
